@@ -1,0 +1,12 @@
+{
+  "name": "bx-js-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cd local/js/demo/tasks && bitrix build",
+    "watch": "cd local/js/demo/tasks && bitrix build --watch"
+  },
+  "devDependencies": {
+    "@bitrix/cli": "3.3.9"
+  }
+}
